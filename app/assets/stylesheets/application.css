@@ -13,3 +13,38 @@
  *= require_tree .
  *= require_self
  */
+
+.container {
+  margin: 10px;
+  margin-top: 20px;
+}
+
+.ask_new {
+   text-decoration: none;
+}
+
+.answer {
+  padding-left: 15px;
+  border-left: solid 5px rgb(205, 203, 203);
+  background-color: rgb(249, 246, 216);
+}
+
+.question {
+  padding-left: 15px;
+  border-left: solid 5px rgb(205, 203, 203);
+}
+
+.ask_anything {
+  margin-right: 50px;
+}
+
+#text_box {
+  width: 200px;
+  padding-inline: 0px;
+}
+
+#ask_btn {
+  background-color: rgb(16, 144, 224);
+  color: azure;
+  border-radius: 2px;
+}
